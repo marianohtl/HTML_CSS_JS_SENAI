@@ -1,0 +1,20 @@
+#txt1{ 
+    text-align: left;
+}
+#txt2{ 
+    text-align: center;
+}
+
+#txt3{ 
+    text-align: right;
+}
+.txt4{ 
+    text-align: justify;
+    color:violet;
+}
+
+
+a{
+    color:yellow
+}
+
