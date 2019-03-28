@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800');
+
+body{
+    background-color:  rgb(255,235,218);
+    text-align: left;
+    padding: 2vw;
+}
+
+h1{
+    color: rgba(87,52,50, 0.9)
+}
+.centro{
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    line-height: 50px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: rgba(87,52,50, 0.9)
+}
+    
+
+
+
+.negrito{
+  font-weight: bolder;
+
+}
+
+ul{
+    list-style-type: square;
+    list-style-position:outside;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.espacamento{
+    text-indent: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20pt;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 25px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+}
+
+hr{
+  
+  height: 3px;
+  border-top: 3px dashed #FFD0DA ;
+  border-bottom: 3px solid #FFD0DA;
+  border-left: none;
+}
+
+/*
+Alinhamento de Texto
+#txt1{ 
+    text-align: left
+}
+
+#txt2{ 
+    text-align: center
+}
+
+#txt3{ 
+    text-align: right
+}
+
+#txt4{ 
+    text-align: justify;
+    color:violet;
+}
+
+Decoração de Texto
+#txt5{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+#txt6{
+    text-decoration: underline
+}
+
+#txt7{
+    text-decoration: overline
+}
+
+#txt8{
+    text-decoration: line-through
+}
+
+#txt9{
+    text-transform: uppercase
+}
+
+#txt10{
+    text-transform: lowercase
+}
+#txt11{
+    text-transform: capitalize
+Transformação de Texto
+
+Identação de Texto
+
+#txt12{
+    text-indent: 100px
+}
+
+Espaçamento de Texto
+#txt13{
+    letter-spacing: 20px
+}
+
+#txt14{
+    word-spacing: 20px 
+}
+
+#txt15{
+    line-height: 40px
+}
+Fontes
+#txt16{
+font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#txt17{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+#txt18{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    font-style: italic;
+}
+
+
+
+*/
