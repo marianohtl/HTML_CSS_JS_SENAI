@@ -1,0 +1,18 @@
+.container{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: justify;
+    width: 700px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: bisque;
+    background-color: lavenderblush;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.container p{
+        color: darkred;
+
+}
