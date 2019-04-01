@@ -1,0 +1,30 @@
+body{
+
+}
+
+ul{
+    list-style-type: none;
+    background-color: black;
+
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+li:hover{
+    background-color:rgb(238, 170, 44);
+}
+
+li a:hover{
+    color: black;
+}
+
+/*psoudo elemento extendes as funcionalidade do css (como ações do usuário)*/

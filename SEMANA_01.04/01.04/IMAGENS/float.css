@@ -1,0 +1,25 @@
+img {
+ 
+    height: 200px;
+    border-radius: 90px;
+}
+
+.flutuando-esquerda{
+    float: left;
+    
+}
+.flutuando-direita{
+    float: right;
+}
+
+div{
+    border: 2px dashed palevioletred;    
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+.limpa-float{
+    clear:both;
+}

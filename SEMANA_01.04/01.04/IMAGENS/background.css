@@ -1,0 +1,15 @@
+div{
+    border: 2px dashed red;
+    width: 400px;
+    height: 400px;
+    background-image: url(batata_doce.jpg);/*colocando imagem como plano de fundo*/
+    background-size: cover; /*ajusta-se na altura da div*/
+    background-position: center; /*ajusta a imagem conforme posição*/
+    background-position-x: 80px; /*conseguimos ajeita a imagem de acordo com os eixos x e y da page web*/
+    background-position-y: 0px;
+    background-repeat:no-repeat; /*a imagem se repete e para que isso não aconteça, usamos a prorpiedade no repeat*/
+    background-repeat: repeat-x;     /*podemos controlar as repetições nos eixos x & y*/
+    background-position: right bottom;/*ajustando a posição */    
+    color:white;
+}
+

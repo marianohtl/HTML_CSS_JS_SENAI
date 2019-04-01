@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+
+}
+
+li{
+    color: white;
+    list-style: none;
+    margin-left: 20px;
+}
+
+span{
+    display: inline-flex;
+    
+}
+nav{
+    display: inline-flex;
+
+}
