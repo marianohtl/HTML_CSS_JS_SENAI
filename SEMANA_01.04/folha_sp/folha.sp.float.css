@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+
+#principal{
+    position: relative;
+    width: 100%;
+    height: 2890px;
+} 
+
+header{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    box-sizing: border-box;
+ 
+}
+
+
+
+/*Referente ao Primeiro Menu de Navegação*/
+
+ .primeiro-menu{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    box-sizing: border-box;
+ 
+    
+}
+
+nav {
+    position: absolute;
+    left: 15px;
+    color:white;
+    font-weight: bolder;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav li{
+    padding: 10px 15px 15px 15px;
+}
+
+
+
+
+    /* font-size: 14px;
+    color: white; */
+
+
+
+.logo{
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    left:900px; 
+}
+
+.lista-menu{
+    display: inline-block; /*propriedade que altera o conportamento da linha*/
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navegacao-dois{
+    position: absolute;
+    left: 1200px;
+}
+
+
+
+.logoFolha{
+    width: 220px;
+    height: 70px;
+    position: absolute;
+    left:800px; 
+}
+
+.preto{
+    color:black;   
+}
+.red{
+    color:red;
+}
+
+
+/*Referente ao Segundo Menu de Navegação*/
+
+ .segundo-menu{
+
+    box-sizing: border-box;
+    position: relative;
+  
+}
+
+.navegacao-tres{
+    position: absolute;
+    color: black;
+    left: 30px;
+
+}
+
+.navegacao-quatro{
+    position: absolute;
+    color: black;
+    left: 1450px;
+
+}
+
+.imgNewYork{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+    top:10px;
+}
+
+
+.linha{
+    border-top: solid 2px gray;
+    border-bottom: solid 2px gray;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.icone{
+    padding:0px 10px 0px 10px;
+}
+/*Bloco Notícia Principal*/
+
+.bloco-noticia-principal{
+    width: 920px;
+    height: 310px;
+    box-sizing: border-box; /*subtrair paddin/border caso ocorra acréscimo destes*/
+    margin-top: 50px;
+    position: absolute;
+    margin: 50px 0px 50px 120px;
+  
+} 
+
+.imagem-noticia{
+    height: 100%;
+    width: 420px;
+    float: left;
+    margin-right: 20px;
+    box-shadow: -2px 3px rgba(128, 128,128, 0.6);
+
+}
+
+
+.imagem-noticia img{
+    width: 100%;
+    height: 100%;
+}
+
+.texto-noticia-principal{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.texto-noticia-principal i{
+    font-size: 20px;
+    color: gray;
+   
+}
+
+.texto-noticia-principal h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto-noticia-principal a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+
+}
+
+
+.texto-noticia-principal p{
+    text-decoration: none;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/*Bloco Notícia Secundária*/
+
+.bloco-noticias-secundaria{
+    width: 900px;
+    height: 200px;
+    box-sizing: border-box; /*subtrair paddin/border caso ocorra acréscimo destes*/
+    margin-top: 50px;
+    position: absolute;
+    margin: 410px 0px 50px 120px;
+}
+
+.imagem-noticia-secundaria{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    box-shadow: -2px 3px rgba(128, 128,128, 0.6);
+
+
+}
+
+.imagem-noticia-secundaria img{
+    width: 100%;
+    height: 100%;
+}
+
+.texto-noticia-secundaria{
+    font-size: 12px;
+}
+
+.texto-noticia-secundaria i{
+    font-size:12px;
+    color: gray;
+    margin-left: 20px;
+
+}
+
+.texto-noticia-secundaria h2{
+    font-size: 30px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.texto-noticia-secundaria a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.texto-noticia-secundaria p{
+    text-decoration: none;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.bloco-noticias-secundaria2{
+    width: 900px;
+    height: 200px;
+    box-sizing: border-box; /*subtrair paddin/border caso ocorra acréscimo destes*/
+    margin-top: 50px;
+    position: absolute;
+    margin: 650px 0px 50px 120px;
+}
+
+.bloco-noticias-secundaria3{
+    width: 900px;
+    height: 200px;
+    box-sizing: border-box; 
+    margin-top: 50px;
+    position: absolute;
+    margin: 900px 0px 50px 120px;
+}
+
+.bloco-noticias-secundaria4{
+    width: 900px;
+    height: 200px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    position: absolute;
+    margin: 1150px 0px 50px 120px;
+}
+
+.bloco-noticias-secundaria5{
+    width: 900px;
+    height: 200px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    position: absolute;
+    margin: 1400px 0px 50px 120px;
+}
+
+.bloco-noticias-secundaria6{
+    width: 900px;
+    height: 200px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    position: absolute;
+    margin: 1650px 0px 50px 120px;
+}
+
+.bloco-noticias-secundaria7{
+    width: 900px;
+    height: 200px;
+    box-sizing: border-box; 
+    margin-top: 50px;
+    position: absolute;
+    margin: 1900px 0px 50px 120px;
+}
+.bloco-noticias-secundaria8{
+    width: 900px;
+    height: 200px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    position: absolute;
+    margin: 2150px 0px 50px 120px;
+}
+.bloco-noticias-secundaria9{
+    width: 900px;
+    height: 200px;
+    box-sizing: border-box; 
+    margin-top: 50px;
+    position: absolute;
+    margin: 2400px 0px 50px 120px;
+}
+
+.bloco-noticias-secundaria10{
+    width: 900px;
+    height: 200px;
+    box-sizing: border-box; 
+    margin-top: 50px;
+    position: absolute;
+    margin: 2650px 0px 50px 120px;
+}
+
+footer{
+    border-top: solid gray 2px;
+    width: 100%;
+    height:300px;
+    background-color:white;
+    border-top: solid 2px gray;
+    position: relative;
+}
+
+hr{
+    height: 2px;
+   
+}
+ 
+.pre-rodape{
+    height: 260px;
+    width: 100%;
+    position:relative;
+}
+
+.logo-folha-baixo{
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+}
+
+
+
+
+.texto-pre-rodape-1{
+    color:black;
+    position: absolute;
+    bottom: 28px;
+    left: 340px;    
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.texto-pre-rodape-2{
+    color:black;
+    position: absolute;
+    text-transform: uppercase;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    bottom: 28px;
+    left: 95% ; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+       
+}
+
+
+
+.lista-footer a{
+    color: black;
+    margin-left: 20px;
+    
+}
+
+.lista-footer-principal{
+ 
+    color: black;
+    padding: 4px;
+    text-transform: uppercase;
+    margin: 60px 10px 10px 40px;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+
+}
+
+
+.lista-footer{
+ 
+    color: black;
+    padding: 4px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+   
+
+}
+
+
+.footer-dois{
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+ 
+.footer-tres{
+    position: absolute;
+    top: 350px;
+    left: 300px;
+}
+
+
+.footer-cinco{
+    position: absolute;
+    top: 0px;
+    left: 600px;
+}
+
+.footer-seis{
+    position: absolute;
+    top: 350px;
+    left: 600px;
+}
+
+
+.footer-sete{
+    position: absolute;
+    top: 0px;
+    left: 900px;
+}
+
+.footer-oito{
+    position: absolute;
+    top: 350px;
+    left: 900px;
+}
+
+
+.footer-quatro{
+    position: absolute;
+    top: 0px;
+    left: 1200px;
+}
+
+
+.links{
+    position: absolute;
+    right: 500px;
+    top: 300px;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+
+.lista-footer-icones{
+    display: inline-block; 
+
+} 
+
+.footer-texto{
+    position: absolute;
+    right: 150px;
+    top: 400px;
+    width: 300px;
+    height: 200px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.footer-texto-dois{
+    position: absolute;
+    left: 45px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+.icone-footer{
+    width: 100px;
+    height: 100px;
+    color: black;
+}
+
+.folhapress{
+    color:blue;
