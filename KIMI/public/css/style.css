@@ -1,0 +1,358 @@
+/* IMPORT FONT */
+    @font-face{
+        font-family: 'Futura';
+        src: url('../fonts/Futura.ttc');
+    }
+/* ======================== */
+
+
+/* CONTAINER CONFIGURATION */
+    .container{
+        margin: 0 auto;
+        background-color: white;
+        box-sizing: border-box;
+    }
+/* ======================== */
+
+
+/* DEFAULT CONFIGURATION */
+    body{ background-color: #333333; }
+
+    h1,h2,h3{
+        font-family: 'Futura-bold', sans-serif;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    
+    h1{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+        -webkit-background-clip: text; 
+        -moz-background-clip: text;
+        -o-background-clip: text;
+    
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color:transparent;
+        -o-text-fill-color:transparent;
+        -ms-text-fill-color:transparent;
+
+        background-image: url("../img/imagem_para_o_fundo_mobile.jpg");
+    }
+
+
+    hr{
+        margin-top: 10px;
+        border: 1px solid #B90302;
+    }
+
+
+    /* HEADER CONFIGURATION */
+        .cabecalho{
+            position: relative;
+            justify-content: center;
+        }
+
+        .titulo-cabecalho{ width: 100%; }
+
+        .menu-cabecalho{
+            width: 100%;
+            margin-top: 10px;
+            align-items: center;
+            justify-content: space-between;
+            position: absolute;
+            top: 0;
+            z-index: 1;
+        }
+
+        .menu-cabecalho img{ height: 100%; }
+
+        #menu-hamburger{ fill: #fff; }
+    /* ========================= */
+
+   /* =========== main configuration ============= */
+
+    .next-race img,.next-race-photo img,video{
+        width: 100%;
+    }
+
+   
+    .next-race, .next-race-photo{
+        position: relative;
+    }
+
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(185, 3, 2, 0.84);
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        overflow: hidden;/*deixa ele escondidinho*/
+        transition: .5s ease;
+    }
+
+
+/* MEDIA QUERIES */
+
+/* SMALL DEVICES FROM 0px TO 600px */
+@media only screen and (max-width: 600px){
+    /* CONTAINER CONFIGURATION */
+        .container{
+            width: 80%;
+            min-width: 300px;
+        }
+    /* ========================  */
+
+
+    /* HEADER CONFIGURATION */
+        .cabecalho{ height: 100vh; }
+
+        .titulo-cabecalho{
+            font-size: 35px;
+            margin-top: 20px;
+            order: 1;
+        }
+
+        .menu-cabecalho{
+            height: 40px;
+            padding: 5px 10px;
+        }
+
+        .menu-cabecalho img{ height: 100%; }
+
+        .img-cabecalho{
+            width: 100%;
+            height: 540px;
+        }
+
+        .img-cabecalho img{ width: 100%; }
+
+        hr{
+            width: 160px;
+            order: 2;
+            margin-top: 20px;
+        }
+    /* =========== MAIN CONFIGURATION =============  */
+     .next-race-photo img{
+        width: 70%;
+        height: auto;
+        z-index: 2;
+        }
+    .next-race-photo{margin:30px 0;}
+
+     .next-race-hr{
+         position: absolute;
+         right: 0px;
+         top:38%;
+         z-index: 1;
+     }
+
+     .born-to-race video{
+         width: 37vh;
+         height: 200px;
+         position: relative;
+         top:0px;
+     }
+
+     .born-to-race-text{
+         widows: 100%;
+         height: 30vh;
+         position: relative;
+         background-color: rgb(0, 0, 0, .6);
+
+     }
+
+     .born-to-race-text .hr-born-to-race{
+        width: 170px;
+        position: top;
+        top:100%;
+        margin: 10px 0px 20px 0px;
+        border: 1px solid rgb(114, 109, 109);
+     }
+    
+     .born-to-race-text p{
+         width: 100%;
+         height: 20vh;
+         color: white;
+         font-family: 'Futura-bold', sans-serif;
+         
+     }
+     .born-to-race-text h2{
+        color: white;
+     }
+     
+}
+
+/* ========================  */
+
+
+/* SMALL DEVICES FROM 600px TO 768px */
+@media only screen and (min-width: 600px){
+    /* CONTAINER CONFIGURATION */
+        .container{ width: 95%; }
+    /* ======================== */
+
+    /* HEADER CONFIGURATION */
+        .cabecalho{ height: 90vh; }
+
+        .titulo-cabecalho{
+            font-size: 9vw;
+            line-height: 9vw;
+            order: 3;
+        }
+
+        .menu-cabecalho{
+            height: 50px;
+            padding: 5px 30px;
+        }
+
+        hr{
+            margin: 30px 0;
+            width: 50%;
+        }
+
+        .img-cabecalho img{
+            content: url('../img/kimi-raikkonen-wallpapers_desktop.jpg');
+            box-sizing: border-box;
+            height: 100%;
+            width: 100%;
+        }
+    /* ======================== */
+}
+/* ======================== */
+
+
+/* MEDIUM DEVICES FROM 768px to 992px */
+@media only screen and (min-width: 768px){
+    /* HEADER CONFIGURATION */
+        .cabecalho{ height: 50vh; }
+
+        .titulo-cabecalho{ order: -1; }
+
+        .titulo-cabecalho h1{
+            font-size: 7vw;
+            line-height: 7vw;
+            -ms-transform: rotate(-90deg);
+            -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+            -ms-transform-origin: center center;
+            -webkit-transform-origin: center center;
+            transform-origin: center center;
+            margin-left: 30%;
+            background-image: url("../img/imagem_para_o_fundo_desktop.jpg");
+        }
+    
+        .menu-cabecalho{ height: 50px; }
+
+        #menu-hamburger{ fill: #B90302; }
+    
+        hr{ width: 45%; }
+    /* ========= main configuration =============== */
+    .column{
+        display: flex;
+        flex-direction: column;
+     
+    }
+   
+    .next-race, .next-race-photo{
+        position: absolute;
+        left: 56%;
+     
+    }
+
+    .next-race{
+        top:32%;
+    }
+
+    .next-race-photo{
+        top:50%;
+    }
+
+    .next-race img, .next-race-photo img, .overlay{
+        height: 200px;
+        width: 100%;
+    }
+    
+    .next-race-photo{
+        margin: 100px 0;
+    }
+
+    .born-to-race video{
+        width: 37vh;
+    }
+
+} 
+/* ======================== */
+
+
+/* LARGE DEVICES FORM 992px TO 1200px */
+@media only screen and (min-width: 992px){
+    /* HEADER CONFIGURATION */
+        .menu-cabecalho{
+            height: 60px;
+            padding: 5px 50px;
+        }
+
+        hr{ margin-top: 100px; }
+    /* ========================  */
+
+    
+    /* ========== MAIN CONFIGURATION ==============  */
+
+.overlay{
+    height: 0px;
+}
+
+.next-race:hover .overlay{
+    height: 100%;
+}
+
+}
+
+
+/* EXTRA LARGE DEVICES FORM 1200px TO 1920px */
+@media only screen and (min-width: 1200px){
+    /* HEADER CONFIGURATION */
+        .cabecalho{ height: 100vh; }
+
+        .img-cabecalho{
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+    /* ========================  */
+
+    /* MAIN CONFIGURATION */
+
+        /* BURN TO RACE */
+        .burn-to-race video{
+            height: 100%;
+        }
+        /* ========================  */
+    /* ========================  */
+}
+
+/* EXTRA LARGE DEVICES FORM 1920px */
+@media only screen and (min-width: 1920px){
+    /* CONTAINER CONFIGURATION */
+        .container{ max-width: 1900px; }
+     /* ========================  */
+
+    /* HEADER CONFIGURATION */
+        .titulo-cabecalho h1{
+            font-size: 140px;
+            line-height: 140px;
+        }
+    /* ========================  */
+}
+
+
+
+.bg-red{background-color: red;}
+
+.bg-green{background-color: green;}
+
+.bg-blue{background-color: blue;}
